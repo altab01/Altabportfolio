@@ -141,14 +141,7 @@ transform:none;
 
 /* section */
 
-.pic {
-        width: 400px;                  /* Set width for the profile picture */
-        height:400px;                 /* Set height to make it a square */
-        border-radius: 50%;            /* Makes the image circular */
-        object-fit: cover;             /* Ensures the image covers the area without distortion */
-        object-position: right top;    /* Adjusts the position within the square to top-right */
-         
-}
+
 section{
 padding-top:4vh;
 height: 96vh;
@@ -247,7 +240,7 @@ icon*/
   position: relative;
 }
 
-.about-containers {
+.about-container {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
@@ -258,7 +251,7 @@ icon*/
   flex-direction: column;
 }
 
-.about-containers,
+.about-container,
 .about-details-container {
   display: flex;
 }
@@ -320,8 +313,6 @@ icon*/
     flex-direction: row;
     gap: 2.5rem;
     justify-content: space-around;
-
-
 }
 article{
     display: flex;
@@ -348,7 +339,7 @@ cursor:default;
 .project-img{
     border-radius: 2rem;
     width: 90%;
-    height:90%;
+    height: 15rem;
 }
 .project-title{
     margin:1rem;
@@ -405,4 +396,16 @@ footer{
 
 footer p{
     text-align: center;
+}
+
+
+
+
+.pic {
+    width: 400px;                  /* Set width for the profile picture */
+    height:400px;                 /* Set height to make it a square */
+    border-radius: 50%;            /* Makes the image circular */
+    object-fit: cover;             /* Ensures the image covers the area without distortion */
+    object-position: right top;    /* Adjusts the position within the square to top-right */
+     
 }
